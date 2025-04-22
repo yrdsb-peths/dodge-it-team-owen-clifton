@@ -10,5 +10,8 @@ public class MyWorld extends World {
         
         Banana banana = new Banana();
         addObject(banana,600, 100);
+        
+        Spider spider = new Spider();
+        addObject(spider, 600, 300);
     }
 }

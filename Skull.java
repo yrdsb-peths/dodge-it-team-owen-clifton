@@ -1,12 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class gameOverSymbol here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class gameOverSymbol extends Actor
+public class Skull extends Actor
 {
     /**
      * Act - do whatever the gameOverSymbol wants to do. This method is called whenever
@@ -17,3 +11,4 @@ public class gameOverSymbol extends Actor
         // Add your action code here.
     }
 }
+

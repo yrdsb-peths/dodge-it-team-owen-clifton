@@ -1,18 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 
-public class Banana extends Actor
+public class Spider extends Actor
 {
     public void act()
     {
         move(-10);
         
         if(getX() <= 0){
-            resetBanana();   
+            resetSpider();   
         }
     }
     
-    public void resetBanana(){
+    public void resetSpider(){
         int num = Greenfoot.getRandomNumber(2);
         if(num == 0){
             setLocation(600, 100);
