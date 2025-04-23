@@ -9,7 +9,6 @@ public class Hero extends Actor
         {
             atTop = !atTop;
         }
-        
         if(atTop)
         {
             setLocation(100, 100);
