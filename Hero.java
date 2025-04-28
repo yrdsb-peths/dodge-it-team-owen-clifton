@@ -3,6 +3,7 @@ public class Hero extends Actor
 {
     public void act()
     {
+<<<<<<< HEAD
         moveWithKeys();
         checkBananaCollision();
     }
@@ -25,6 +26,20 @@ public class Hero extends Actor
         getWorld().addObject(new Skull(), getX(), getY()); // add Skull
         getWorld().removeObject(this); // remove Hero
         Greenfoot.stop(); // stop the game
+=======
+        if(Greenfoot.mouseClicked(null))
+        {
+            atTop = !atTop;
+        }
+        if(atTop)
+        {
+            setLocation(100, 100);
+        }
+        else
+        {
+            setLocation(100,300);
+        }
+>>>>>>> 602ed896fb0571037ad9dc75f3cf46f150a0245f
     }
 }
 
