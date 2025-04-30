@@ -3,6 +3,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Spider extends Actor
 {
+    public Spider(){
+        setImage("images/spider.png");
+    }
+    
     public void act()
     {
         move(-5);
