@@ -26,6 +26,7 @@ public class Hero extends Actor
             setLocation(getX() + 4, getY()); // move right
         }
     }
+    boolean atTop = true;
     
     public void checkBananaCollision() {
         if (isTouching(Banana.class)){
